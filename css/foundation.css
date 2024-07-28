@@ -8486,16 +8486,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 .read-more.expanded .read-more {
   display: block;
 }
-/**/
-.read-more-content-columbus,
-.read-more-columbus {
-  display: none;
-  margin-top: 1rem;
-}
 
-.read-more-content-columbus.expanded .read-more,
-.read-more.expanded-columbus .read-more {
-  display: block;
-}
+
 
 

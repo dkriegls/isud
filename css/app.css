@@ -89,6 +89,12 @@ h2 {
   float: left;
   margin-right: 8px;
 }
+.bio-margin {
+  padding-bottom: 1%;
+}
+.overflow {
+  overflow: visible;
+}
 
 @media screen and (min-width: 640px) {
   h1 {
@@ -194,5 +200,16 @@ footer {
   clear: both;
 }
 
-
-
+/*biography collapsable*/
+input[type='checkbox'] { display: none; } 
+.wrap-collabsible { margin: 1rem 0; } 
+.lbl-toggle { display: block; font-weight: bold; font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; font-size: 1rem; text-transform: uppercase; text-align: center; padding: 0.2rem 0.5rem; margin-bottom: 5px; color: black; background: #ededed; cursor: pointer; border-radius: 7px; transition: all 0.25s ease-out; } 
+.lbl-toggle:hover { color: white; background: black; } 
+.lbl-toggle::before { content: ''; display: inline-block; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid currentColor; vertical-align: middle; margin-right: .7rem; transform: translateY(-2px); transition: transform .2s ease-out; } 
+.toggle:checked+.lbl-toggle::before { transform: rotate(90deg) translateX(-3px); } 
+.collapsible-content { max-height: 0px; overflow: hidden; transition: max-height .25s ease-in-out; } 
+.toggle:checked + .lbl-toggle + .collapsible-content { max-height: 350px; } 
+.toggle:checked+.lbl-toggle:after { font-weight: normal; } 
+.collapsible-content .content-inner {margin-top: 5px;}
+.collapsible-content p { margin-bottom: 0; }
+/*end biography collabsable*/
