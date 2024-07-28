@@ -1,0 +1,144 @@
+#onpage {
+  text-decoration: underline white 3px;
+}
+sup {
+  z-index: -10;
+}
+#rome_body{
+  padding-top: 90px;
+}
+.sticky-shrinknav-header {
+  z-index: 20;
+}
+.about_top {
+  padding-top: 5%;
+  text-align: center;
+}
+.flexible-article-images-container{
+  margin: 0 2%; 
+}
+.caption {
+  opacity: 0;
+}
+.about_bottom {
+  font-style: italic;
+  padding-top: 3%;
+  font-size: 14px;
+  text-align: center;
+}
+h2 {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+}
+.timeline {
+  background-color: #708090;
+  margin-top: 0;
+  margin: 0 0;
+  width: 100%
+}
+.rome_top1 {
+  text-align: Center;
+  background-color: #708090;
+  color: white;
+  opacity: 0;
+}
+
+.rome_top2 {
+  text-align: Center;
+  background-color: #708090;
+  color: white;
+  opacity: 1
+}
+.bolding{
+  font-weight: 800;
+  color: Black;
+}
+#left {
+  text-align: left;
+}
+.underline {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 640px) {
+  h1 {
+    margin-top: 6%;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  .sticky-shrinknav-header {
+    height: 220px;
+  }
+  body {
+    padding-top: 190px;
+  }
+  #rome_body{
+    padding-top: 190px;
+  }
+  .caption {
+    opacity: 1;
+  }
+  .flexible-article-images-container {
+    margin: 0 8%;
+  }
+  .fixed {
+    float: left;
+    text-align: center;
+    clear: both;
+  }
+  .clear {
+    clear:both;
+  }
+  .hide-for-small-only {
+
+  }
+  .rome_top1 {
+    opacity: 1;
+    padding-top: 4%;
+  }
+
+  .rome_top2 {
+    opacity: 0;
+  }
+
+
+@media screen and (min-width: 830px) {
+  h1 {
+    margin-top: 5%;
+  }
+  .rome_top1 {
+    opacity: 1;
+    padding-top: 3%;
+  }
+}
+
+@media screen and (min-width: 1034px) {
+  h1 {
+    margin-top: 0%;
+  }
+  .sticky-shrinknav-header {
+    height: 150px;
+  }  
+    body {
+    padding-top: 140px;
+  }
+  #rome_body{
+    padding-top: 140px;
+  }
+  .about_top {
+    padding-top: 2%;
+  }
+  .flexible-article-images-container {
+    margin: 0 15%;
+  }
+  .rome_top1 {
+    padding-top: 1%;
+  }
+}
+
+footer {
+  clear: both;
+}
