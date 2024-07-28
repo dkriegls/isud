@@ -8173,7 +8173,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   transition: all 0.3s ease;
 }
 
-/*!responsive footer*/
+/*responsive footer*/
 .responsive-blog-footer {
   background: #4a4a4a;
   padding: 3rem 3rem;
@@ -8224,7 +8224,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   color: #b0b0b0;
   transition: color 0.3s ease-in;
 }
- /*!flexible-article*/
+ /*flexible-article*/
 
 .flexible-article-image-full .thumbnail {
   width: 100%;
@@ -8286,7 +8286,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   }
 }
 
-/*!timeline*/
+/*timeline*/
 .timeline .timeline-item::after, .timeline .timeline-item::before {
   clear: both;
   content: '';
@@ -8417,3 +8417,75 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
     left: 0;
   }
 }
+/*testimonial-block*/
+
+
+.testimonial-block-vertical-quote {
+  background: rgba(23, 121, 186, 0.25);
+  padding: 1rem;
+  border-radius: 0;
+  margin-bottom: 1.875rem;
+  position: relative;
+}
+
+.testimonial-block-vertical-quote p {
+  margin-bottom: 0;
+}
+
+.testimonial-block-vertical-quote::after {
+  content: '';
+  bottom: -1.25rem;
+  left: 2.25rem;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 1.25rem 1.125rem 0 1.125rem;
+  border-color: rgba(23, 121, 186, 0.25) transparent transparent transparent;
+  position: absolute;
+}
+
+.testimonial-block-vertical-person {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 1.65rem;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.testimonial-block-vertical-avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.testimonial-block-vertical-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-left: 0.65rem;
+}
+
+.testimonial-block-vertical-info {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #8a8a8a;
+  margin-bottom: 0;
+  margin-left: 0.65rem;
+}
+
+/*read-more*/
+.read-more-content,
+.read-more {
+  display: none;
+  margin-top: 1rem;
+}
+
+.read-more-content.expanded .read-more,
+.read-more.expanded .read-more {
+  display: block;
+}
+
+
+

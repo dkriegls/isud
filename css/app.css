@@ -9,6 +9,8 @@ sup {
 }
 .sticky-shrinknav-header {
   z-index: 20;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,2989d8+27,207cca+75,7db9e8+100 */
+  background: linear-gradient(to bottom,  #7db9e8 0%,#2989d8 27%,#207cca 75%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 .about_top {
   padding-top: 5%;
@@ -60,6 +62,33 @@ h2 {
 .underline {
   text-decoration: underline;
 }
+.testimonial-block-vertical {
+  margin: 5% 2% 5% 2%;
+}
+.testimonial-block-vertical-quote {
+  border-radius: 30px;
+}
+.pay {
+  color: white;
+  background-color: red;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 18px !important;
+}
+.pay:hover, pay:focus {
+  background-color: yellow;
+  color: black !important;
+}
+.board {
+  color: white;
+  background-color: #2989d8;
+  margin: 0;
+}
+.img-size {
+  width: 150px;
+  float: left;
+  margin-right: 8px;
+}
 
 @media screen and (min-width: 640px) {
   h1 {
@@ -93,18 +122,18 @@ h2 {
     clear:both;
   }
   .hide-for-small-only {
-
   }
   .rome_top1 {
     opacity: 1;
     padding-top: 4%;
   }
-
   .rome_top2 {
     opacity: 0;
   }
-
-
+  .callout {
+    margin-bottom: 16px;
+  }
+}
 @media screen and (min-width: 830px) {
   h1 {
     margin-top: 5%;
@@ -113,7 +142,23 @@ h2 {
     opacity: 1;
     padding-top: 3%;
   }
+  .testimonial-block-vertical {
+    width: 800px;
+    margin: 3% auto;
+  }
+  .testimonial-block-vertical-quote {
+    width: 600px;
+  }
+  .callout {
+    width: 830px;
+    margin: 0 auto 16px auto;
+  }
+  .board {
+    width: 830px;
+    margin: 0 auto;
+  }
 }
+
 
 @media screen and (min-width: 1034px) {
   h1 {
@@ -137,8 +182,17 @@ h2 {
   .rome_top1 {
     padding-top: 1%;
   }
+  .callout {
+    width: 1034px;
+  }
+  .board {
+    width: 1034px;
+  }
 }
 
 footer {
   clear: both;
 }
+
+
+
