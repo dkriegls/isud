@@ -36,6 +36,9 @@ h2 {
   font-size: 28px;
   text-align: center;
 }
+.hidden {
+  display: none !important;
+}
 .timeline {
   background-color: #708090;
   margin-top: 0;

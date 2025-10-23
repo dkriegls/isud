@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 
-h1, .h1replace {
+h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
@@ -2878,7 +2878,6 @@ ul,
 ol,
 li,
 h1,
-.h1replace,
 h2,
 h3,
 h4,
@@ -2918,7 +2917,7 @@ small {
   line-height: inherit;
 }
 
-h1, .h1, .h1replace,
+h1, .h1,
 h2, .h2,
 h3, .h3,
 h4, .h4,
@@ -2930,7 +2929,7 @@ h6, .h6 {
   color: inherit;
   text-rendering: optimizeLegibility;
 }
-h1 small, .h1 small, .h1replace small,
+h1 small, .h1 small,
 h2 small, .h2 small,
 h3 small, .h3 small,
 h4 small, .h4 small,
@@ -2940,7 +2939,7 @@ h6 small, .h6 small {
   color: #cacaca;
 }
 
-h1, .h1, .h1replace {
+h1, .h1 {
   font-size: 1.5rem;
   line-height: 1.4;
   margin-top: 0;
@@ -2983,7 +2982,7 @@ h6, .h6 {
 }
 
 @media print, screen and (min-width: 40em) {
-  h1, .h1, .h1replace {
+  h1, .h1 {
     font-size: 3rem;
   }
   h2, .h2 {
