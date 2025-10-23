@@ -8485,6 +8485,8 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 .read-more-content.expanded .read-more,
 .read-more.expanded .read-more {
   display: block;
+  max-height: none;
+  overflow: visible;
 }
 
 
