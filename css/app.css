@@ -105,6 +105,14 @@ h2 {
 .overflow {
   overflow: visible;
 }
+.center {
+  text-align: center;
+}
+.profile {
+  color: white;
+  text-decoration: underline;
+}
+
 /*Membership Pill*/
 .hero-wrap { margin: 6rem auto 3rem; }
 .hero-heading {
