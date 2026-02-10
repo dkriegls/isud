@@ -22,6 +22,9 @@
 .flexible-article-images-container{
   margin: 0 2%; 
 }
+.flexible-article-content{
+  font-size: 18px;
+}
 .caption {
   opacity: 0;
 }
