@@ -54,6 +54,9 @@ h2 {
   color: white;
   padding: 2%;
 }
+.logo {
+  width: 200px;
+}
 .bolding{
   font-weight: 800;
   color: Black;
