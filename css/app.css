@@ -4,6 +4,9 @@
 #rome_body {
   padding-top: 90px;
 }
+#rome_body p {
+  font-size: 1.125em; 
+}
 .sticky-shrinknav-header {
   z-index: 20;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,2989d8+27,207cca+75,7db9e8+100 */
@@ -22,8 +25,8 @@
 .flexible-article-images-container{
   margin: 0 2%; 
 }
-.flexible-article-content{
-  font-size: 18px;
+.flexible-article-content p{
+  font-size: 1.125em;
 }
 .caption {
   opacity: 0;
