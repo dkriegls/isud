@@ -30,6 +30,7 @@
 }
 .caption {
   opacity: 0;
+  margin-bottom: 0;
 }
 .about_bottom {
   font-style: italic;
