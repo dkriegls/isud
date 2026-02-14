@@ -142,7 +142,7 @@ h2 {
 .hero-pill {
   display: inline;
   font-size: clamp(2.2rem, 5vw + 1rem, 5.5rem);
-  line-height: 1.05;
+  line-height: 1.75;
   background: #111;
   color: #fff;
   padding: 0.25em 0.4em 0.2em;
@@ -200,7 +200,7 @@ h2 {
   /*Membership Pill*/  
   .hero-pill {
   display: inline-block;
-  white-space: nowrap;
+  line-height: 1.2;
   padding: 0.35em 0.5em 0.25em;
   }
   /*Membership Pill End*/  
