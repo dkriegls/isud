@@ -88,6 +88,9 @@ h2 {
 .testimonial-block-vertical-quote {
   border-radius: 30px;
 }
+.testimonial-block-vertical-avatar {
+  margin-bottom: 10px;
+}
 .pay {
   color: white;
   background-color: #CDA434;
