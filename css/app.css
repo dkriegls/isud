@@ -268,10 +268,10 @@ h2 {
   .board, .event {
     width: 1034px;
   }
-  .1034-box {
+  .events-feature p {
     width: 1034px;
     margin: 0 auto;
-   }
+  }
 }
 
 footer {
@@ -302,7 +302,7 @@ footer {
   text-decoration: underline;
 }
 .events-feature {
-  margin: 0 1.5%
+  margin: 0 2.5%
 }
 
 /*End events Feature*/
