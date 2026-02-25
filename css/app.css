@@ -92,14 +92,14 @@ h2 {
   margin-bottom: 10px;
 }
 .pay {
-  color: white;
-  background-color: #CDA434;
+  color: #FFFFF0;
+  background-color: orange;
   border-radius: 30px;
   font-weight: 600;
   font-size: 18px !important;
 }
 .pay:hover, pay:focus {
-  background-color: yellow;
+  background-color: #FFD700;
   color: black !important;
 }
 .board, .event {
