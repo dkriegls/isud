@@ -126,6 +126,11 @@ h2 {
   text-decoration: underline;
 }
 
+.indent {
+  padding-left: 15px;
+}
+
+
 /*Membership Pill*/
 .hero-wrap { margin: 6rem auto 3rem; }
 .hero-heading {
