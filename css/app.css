@@ -12,6 +12,23 @@
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,2989d8+27,207cca+75,7db9e8+100 */
   background: linear-gradient(to bottom,  #7db9e8 0%,#2989d8 27%,#207cca 75%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
+
+.sticky-shrinknav-menu {
+  display: flex;
+  flex-wrap: nowrap;       /* Prevent wrapping */
+  justify-content: center; /* Keep centered */
+}
+
+.sticky-shrinknav-menu > li {
+  flex: 0 0 auto;          /* Prevent shrinking */
+  white-space: nowrap;     /* Prevent text wrapping */
+}
+
+.sticky-shrinknav-menu > li > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .about_top {
   padding-top: 5%;
   text-align: center;
