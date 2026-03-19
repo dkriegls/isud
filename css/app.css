@@ -1,3 +1,6 @@
+#poster{
+  max-height: unset;
+}
 #onpage {
   text-decoration: underline white 3px;
 }
