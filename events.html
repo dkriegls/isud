@@ -12,13 +12,6 @@
     <script async src="js/vendor/what-input.js"></script>
     <script async src="js/vendor/foundation.js"></script>
     <script async src="js/app.js"></script>
-    <script>
-      $(document).on('closed.zf.reveal', function (event) {
-        $(event.target).find('iframe').attr('src', function(i, src) {
-          return src;
-        });
-      });
-    </script>
   </head>
 <body id="rome_body">
 <header class="sticky-shrinknav-header">
@@ -66,7 +59,7 @@
 
       <div class="reveal large" id="videoModal1" data-reveal>
         <div class="responsive-embed widescreen">
-          <iframe src="https://www.youtube.com/embed/YB1OlI5n-eI"
+          <iframe src="https://www.youtube.com/embed/YB1OlI5n-eI?autoplay=1"
             frameborder="0" allowfullscreen></iframe>
         </div>
         <button class="close-button" data-close aria-label="Close" type="button">
@@ -87,7 +80,7 @@
 
       <div class="reveal large" id="videoModal2" data-reveal>
         <div class="responsive-embed widescreen">
-          <iframe src="https://www.youtube.com/embed/UE6ObE9fg6Q"
+          <iframe src="https://www.youtube.com/embed/UE6ObE9fg6Q?autoplay=1"
             frameborder="0" allowfullscreen></iframe>
         </div>
         <button class="close-button" data-close aria-label="Close" type="button">
